@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+body.login-page {
+  display: block !important;
+}
+
+app-root,
+app-login {
+  display: block;
+  width: 100%;
+}
+
+app-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
